@@ -1,0 +1,98 @@
+{
+    "debian": {
+        "addPaused": false,
+        "affectedFeeds": [
+            "file:///downloads/feeds/debian-feed.rss"
+        ],
+        "assignedCategory": "livemedia",
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "12 Jul 2022 17:38:41 +0000",
+        "mustContain": "^(debian|firmware)-live-[\\d\\.]+-amd64-(lxde|xfce)(\\+nonfree)?",
+        "mustNotContain": "",
+        "previouslyMatchedEpisodes": [
+        ],
+        "savePath": "/downloads/livemedia",
+        "smartFilter": false,
+        "torrentContentLayout": null,
+        "useRegex": true
+    },
+    "debian dvd": {
+        "addPaused": false,
+        "affectedFeeds": [
+            "https://distrowatch.com/news/torrents.xml",
+            "file:///downloads/feeds/debian-feed.rss"
+        ],
+        "assignedCategory": "installers",
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "12 Jul 2022 17:38:41 +0000",
+        "mustContain": "^(debian|firmware)-[\\d\\.]+-amd64-DVD",
+        "mustNotContain": "",
+        "previouslyMatchedEpisodes": [
+        ],
+        "savePath": "/downloads/installers",
+        "smartFilter": false,
+        "torrentContentLayout": null,
+        "useRegex": true
+    },
+    "debian installers": {
+        "addPaused": null,
+        "affectedFeeds": [
+            "file:///downloads/feeds/debian-feed.rss"
+        ],
+        "assignedCategory": "installers",
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "12 Jul 2022 17:38:41 +0000",
+        "mustContain": "^(debian|firmware)-(edu-)?[\\d\\.]+-amd64-netinst",
+        "mustNotContain": "",
+        "previouslyMatchedEpisodes": [
+        ],
+        "savePath": "/downloads/installers",
+        "smartFilter": false,
+        "torrentContentLayout": null,
+        "useRegex": true
+    },
+    "tails": {
+        "addPaused": null,
+        "affectedFeeds": [
+            "file:///downloads/feeds/debian-feed.rss"
+        ],
+        "assignedCategory": "livemedia",
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "14 Jul 2022 18:01:01 +0000",
+        "mustContain": "^tails-amd64-\\d",
+        "mustNotContain": "",
+        "previouslyMatchedEpisodes": [
+        ],
+        "savePath": "/downloads/livemedia",
+        "smartFilter": false,
+        "torrentContentLayout": null,
+        "useRegex": true
+    },
+    "ubuntu": {
+        "addPaused": false,
+        "affectedFeeds": [
+            "file:///downloads/feeds/ubuntu-feed.rss"
+        ],
+        "assignedCategory": "livemedia",
+        "enabled": true,
+        "episodeFilter": "",
+        "ignoreDays": 0,
+        "lastMatch": "13 Jun 2023 19:38:24 +0000",
+        "mustContain": "^ubuntu-\\d+.\\d+(.\\d+)?-(desktop|live-server)-amd64",
+        "mustNotContain": "",
+        "previouslyMatchedEpisodes": [
+        ],
+        "savePath": "/downloads/livemedia",
+        "smartFilter": false,
+        "torrentContentLayout": null,
+        "useRegex": true
+    }
+}

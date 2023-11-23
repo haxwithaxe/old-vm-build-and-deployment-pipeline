@@ -14,4 +14,4 @@ I used scripts that use packer to build base images. [This script](packer/build.
 See [this](https://github.com/haxwithaxe/packer-debian) and [this](https://github.com/haxwithaxe/packer-ubuntu) for details on how I built the specific images.
 
 # Deployment
-For deploying VMs generally I used [this](https://github.com/haxwithaxe/generic-lab-testing-terraform) terraform template. It's basically a parametric VM deployment tool. I would fork that repo and change the defaults for whatever project or if I needed a one-off VM I could provide the variables on the commandline and wipe the state when the VM was up and running. Then I would throw ansible scripts at it or just start whatever testing needed to be done.
+For deploying VMs generally I used [this](https://github.com/haxwithaxe/generic-lab-testing-terraform) terraform template. It's basically a parametric VM deployment tool. I would fork that repo and change the defaults for whatever project or if I needed a one-off VM I could provide the variables on the commandline and wipe the state when the VM was up and running. Then I would throw ansible playbooks at it or just start whatever testing needed to be done.
